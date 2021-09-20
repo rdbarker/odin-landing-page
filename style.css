@@ -1,0 +1,164 @@
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+.header,
+.section,
+.footer{
+    padding: 0 8em;
+}
+
+.header-bottom,
+.section{
+    height: 200px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.header{
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+
+.section{
+    color: #1f2937;
+}
+
+.section:nth-child(odd){
+    background-color: #e5e7eb;
+}
+
+.header-top{
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+
+}
+
+.header-top ul a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.header-bottom{
+    display: flex;
+    
+}
+
+.header-bottom-left{
+    width: 50%;
+}
+
+.header-title{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.header-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-button button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 0;
+}
+
+.footer{
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    height: 100px;
+}
+
+
+.cards-container{
+    display: flex;
+    gap: 32px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#253142
+
+}
+
+.card img{
+    height: 100px;
+    width: 100px;
+    18px;
+}
+
+.section-title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-bottom: 18px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.quote-author{
+    font-weight: bolder;
+    font-size: 24px;
+    text-align: right;
+}
+.cta-container{
+    background-color:#3882F6;
+    color: #F9FAF8;
+    padding: 8px 32px;
+    border-radius: 8px;
+    margin: 32px 0;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.center-content{
+    display: flex;
+    justify-content: center;    
+}
+
+.cta-header{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.cta-right button{
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    border-width: 1px;
+    border-style:solid;
+}
+
